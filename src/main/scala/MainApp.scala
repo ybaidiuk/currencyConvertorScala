@@ -2,7 +2,7 @@ import BitcoinConverter._
 import DollarConverter.{dollar2bitcoin, dollar2euro}
 import akka.actor.{ActorRef, ActorSystem}
 
-object Main extends App {
+object MainApp extends App {
 
   import EuroConverter._
 
@@ -13,9 +13,9 @@ object Main extends App {
   val dollarConv: ActorRef = system.actorOf(DollarConverter.props(printer), "dollarConverter")
   val euroConv: ActorRef = system.actorOf(EuroConverter.props(printer), "euroConverter")
 
-  val euro = BigDecimal(300)
-  val dollar = BigDecimal(200)
-  val bitcoin = BigDecimal(1)
+  val euro = BigDecimal("300")
+  val dollar = BigDecimal("200")
+  val bitcoin = BigDecimal("1")
 
   //Bitcoin
   bitConv ! bitcoin2dollar(bitcoin)
