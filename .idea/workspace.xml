@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="738dd418-aacd-448e-9f72-2bc26e0cfa44" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/MainApp.scala" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/BitcoinConverter.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/DollarConverter.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/EuroConverter.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Printer$$anonfun$receive$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Printer$$anonfun$receive$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Printer$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Printer$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Printer.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Printer.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/MainApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/MainApp.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,8 +43,8 @@
       <file leaf-file-name="MainApp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/MainApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -133,12 +118,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/Singleton.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/MainApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/EuroConverter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/BitcoinConverter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Printer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/DollarConverter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MainApp.scala" />
       </list>
     </option>
   </component>
@@ -400,15 +385,24 @@
       <workItem from="1512075075804" duration="2801000" />
       <workItem from="1512326687556" duration="4768000" />
       <workItem from="1512333783824" duration="3198000" />
-      <workItem from="1512420793540" duration="3359000" />
+      <workItem from="1512420793540" duration="3883000" />
     </task>
+    <task id="LOCAL-00001" summary="beta 2">
+      <created>1512426257673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512426257673</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14126000" />
+    <option name="totallyTimeSpent" value="14650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -420,8 +414,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3397524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70839065" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3397524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.078404404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18578352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -447,6 +441,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beta 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -578,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/MainApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
